@@ -1,0 +1,12 @@
+{
+  "extends": "@eazyfitness/tsconfig/expo.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@eazyfitness/shared": ["./src/index.ts"],
+      "@eazyfitness/shared/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@eazyfitness/trainer",
+  "version": "0.0.1",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eazyfitness/shared": "workspace:*",
+    "@supabase/supabase-js": "^2.43.0",
+    "@tanstack/react-query": "^5.40.0",
+    "expo": "~52.0.0",
+    "expo-apple-authentication": "~7.0.0",
+    "expo-router": "~4.0.0",
+    "expo-secure-store": "~14.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.x",
+    "react-hook-form": "^7.51.5",
+    "react-native": "0.76.x",
+    "react-native-safe-area-context": "4.12.x",
+    "react-native-screens": "~4.0.0",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@eazyfitness/eslint-config": "workspace:*",
+    "@eazyfitness/prettier-config": "workspace:*",
+    "@eazyfitness/tsconfig": "workspace:*",
+    "@types/react": "~18.3.0",
+    "typescript": "~5.3.3"
+  },
+  "prettier": "@eazyfitness/prettier-config"
+}

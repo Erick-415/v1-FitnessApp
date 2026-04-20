@@ -1,0 +1,21 @@
+{
+  "name": "eazyfitness",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "client": "pnpm --filter @eazyfitness/client start",
+    "trainer": "pnpm --filter @eazyfitness/trainer start",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.3.0",
+    "@eazyfitness/prettier-config": "workspace:*",
+    "@eazyfitness/eslint-config": "workspace:*"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
